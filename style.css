@@ -1,73 +1,108 @@
 .main{
     width: 60%;
     height: 1000px;
-    background: rebeccapurple;
+    background: purple;
     margin: 0 auto;
 }
-.head{
+.main .box1 {
+    background: plum;
     width: 100%;
-    height: 100px;
-    background: firebrick;
-}
-.head .logo{
-    width: 20%;
-    height: 100px;
-    background: gold;
-    font-size: 150%;
-    text-align: center;
+    height: 40%;
+    /* margin-top: 150px; */
     float: left;
+
+
+}
+.main .box1 h1{
+    color: rgb(156, 183, 187);
+    margin-left: 10%;
+    margin-top: 4%; 
+    float: left;
+
+}
+.main .box1 h2{
+    color: rgba(250, 201, 158, 0.774);
+    margin-left: 10%;
+    float: left;
+    width: 100%;
+    margin-top: -1.5%;
+}
+.main .box1 h3{
+    color: rgba(230, 87, 87, 0.829);
+    margin-left: 10%;
+    float: left;
+    width: 100%;
+    margin-top: -0.5%;
+}
+.main .box1 h4{
+    margin-left: 10%;
+    float: left;
+    width: 100%;
+    margin-top: -2%;
+    color: rgba(255, 255, 255, 0.856);
+}
+.main .box1 a {
+    margin-left: 10%;
+    background: yellow;
     box-sizing: border-box;
-    padding-top: 2rem;
-}
-.head ul{
-    float: right;
-    margin-top: 2rem;
-    margin-right: 3rem;
-}
-.head ul li{
+    padding: 0.5rem 1.5rem;
     float: left;
-    list-style: none;
-    margin-left: 1rem;
+    border-radius: 5px 5px 5px 5px ;
+    text-decoration: none;
+    transition-property: background,color;
+    transition-duration: 1s;
+}
+.main .box1 a:hover{
+    background: rgba(255, 127, 80, 0.568);
+    color:red;
+}
+.main .box1 img{
+    height: 95%;
+    width: 45%;
+    background: plum;
+    float: left;
+    margin-left: 28.5%;
+    margin-top: -38%;
+    
     
 }
-.head ul a{
-    color: wheat;
-    font-size: 120%;
-    text-decoration: none;
-}
-.foot {
+.main .box2 {
+    background: white;
+    float: left;
     width: 100%;
-    height: 300px;
-    background: rosybrown;
+    height: 15%;
 }
-.foot-nav{
-    width: 35%;
-/* background: olive; */
-float: left;
-margin: 1rem 3rem;
+.main .box2 h1{
+    text-align: center;
 }
-.foot-nav h3{
-    font-size: 150%;
-    font-weight: 200;
+.main .box3 {
+    background: plum;
     float: left;
+    width: 100%;
+    height: 15%;
+    /* background: powderblue; */
 }
-.foot-nav p{
-    font-size: 110%;
-    margin-top: -0rem;
-    margin-bottom: 2rem;
+.main .box4{
+    height: 100%;
+    width: 80%;
+    /* background: red;
+    float: left; */
+    margin-left: 145px;
+}
+.main .box3 .box4 input{
+    width: 12%;
     float: left;
+    padding: 0.5rem 0.75rem;
+    margin-left: 2%;
+    margin-top: 60px;
 }
-.foot-nav a{
-    background: goldenrod;
-    font-size: 120%;
-    color: black;
-    text-decoration: none;
-    padding: 1rem 1rem;
-    border-radius: 5px;
-}
-.foot img{
-    width: 30%;
-    height: 70%;
+.main .box3 .box4 button{
+    width: 20%;
     float: left;
-    margin: 1rem 3rem;
+    padding: 0.5rem 1rem;
+    margin-left: 2%;
+    margin-top: 60px;
+    background: yellow;
+    border-radius: 5px ;
 }
+
